@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Пори року</title>
+</head>
+<body>
+
+    <h1>Натисніть кнопку, щоб побачити пору року</h1>
+    <p id="demo">Тут з'явиться опис та картинка...</p>
+<link rel="stylesheet" href="style.css">
+    <button onclick="myFunction4()">Зима</button>
+    <button onclick="myFunction5()">Весна</button>
+    <button onclick="myFunction3()">Літо</button>
+    <button onclick="myFunction2()">Осінь</button>
+    <button onclick="myFunction6()">головне меню</button>
+
+    <script>
+        function myFunction4() {
+            let x = document.getElementById("demo");
+            x.style.fontSize = "25px";
+            x.style.color = "blue";
+            x.innerHTML = "Зима — найхолодніша пора року, що триває між осінню та весною. У метеорології її визначають як період із найнижчими температурами повітря. <br><img src='images.jpeg' width='900'>";
+              x.style.backgroundColor = "white";
+        }
+
+        function myFunction5() {
+            let x = document.getElementById("demo");
+            x.style.fontSize = "25px";
+            x.style.color = "green";
+            x.innerHTML = "Весна — це перехідна пора року між зимою та літом, протягом якої світловий день збільшується, підвищується температура, оживає природа і починають цвітіти рослини. <br><img src='fe2a5835d6d62a84d64cc357061c8186a244a1a8.jpeg' width='900'>";
+              x.style.backgroundColor = "lightblue";
+        }
+
+        function myFunction3() {
+            let x = document.getElementById("demo");
+            x.style.fontSize = "25px";
+            x.style.color = "red";
+            x.innerHTML = "Лі́то — одна з чотирьох пір року між весною та осінню, з найвищою середньодобовою температурою повітря. Складається із трьох місяців: у Північній півкулі — червня, липня та серпня, в південній — грудня, січня, лютого. Коли в Північній півкулі літо, у Південній півкулі буде зима — і навпаки. Літом відбувається Літнє сонцестояння, коли ніч є найкоротшою, а світловий день найдовшим: 20-21 червня - в Північній півкулі; 21-22 грудня - в Південній півк <br><img src='images33.jpeg' width='900'>";
+              x.style.backgroundColor = "yellow";
+        }
+
+        function myFunction2() {
+            let x = document.getElementById("demo");
+            x.style.fontSize = "25px";
+            x.style.color = "orange";
+            x.innerHTML = "Осінь — одна з чотирьох пір року між літом та зимою. Осінь — перехідний сезон, коли стає помітним зменшення світлового дня та поступово знижується середньодобова температура повітря. Складається із трьох місяців: у Північній півкулі — вересня, жовтня та листопада, в південній — березня, квітня та травня. <br><img src='osin-pes-unsplash-01.10.2020-3.jpg' width='900'>";
+            x.style.backgroundColor = "red";
+        }
+           function myFunction6() {
+            let x = document.getElementById("demo");
+            x.style.fontSize = "25px";
+            x.style.color = "orange";
+            x.innerHTML = "просто головне меню сайту. <br><img src='image.jpg' width='900'>";
+              x.style.backgroundColor = "gray";
+        }
+    </script>
+
+</body>
+</html>
